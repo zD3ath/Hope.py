@@ -1,5 +1,4 @@
-import warnings
-warnings.simplefilter(action='ignore', category=FutureWarning)
+
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
@@ -8,7 +7,7 @@ import numpy as np
 class Stats:
 
     def first(self):
-        countries: object = pd.read_excel(r"C:\Users\Jun Han\Desktop\python\Lab 10\Travellers.xlsx")
+        countries: object = pd.read_excel(r"Travellers.xlsx")
         #122-241
         Cunt_List=[19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29]
         #print(Stats.countries)
